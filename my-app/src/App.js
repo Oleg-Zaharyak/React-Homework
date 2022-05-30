@@ -5,7 +5,7 @@ import {Footer} from "./Components/Footer"
 import {Question} from "./Components/Question"
 
 function App() {
-  let nameStudent = "Oleg Zakhariak"
+  const nameStudent = "Oleg Zakhariak"
   return (
     <div className="flexDiv">
       <Header name= {nameStudent} />
