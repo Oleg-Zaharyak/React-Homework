@@ -27,7 +27,7 @@ export const Question = () => {
   };
 
   const fieldInput = (event) => {
-    const result = event.currentTarget.value;
+    const result = event.target.value;
     setFeedbackText(result);
   };
 
