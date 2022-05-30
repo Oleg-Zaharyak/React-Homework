@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import "./App.css";
-import {Header} from "./Components/Header"
-import {Footer} from "./Components/Footer"
-import {Question} from "./Components/Question"
+import {Header} from "./сomponents/Header"
+import {Footer} from "./сomponents/Footer"
+import {Question} from "./сomponents/Question"
 
 function App() {
   const nameStudent = "Oleg Zakhariak"
