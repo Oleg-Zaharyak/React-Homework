@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Homework/static/css/main.5bbefe3b.css",
-    "main.js": "/React-Homework/static/js/main.a3ee7125.js",
+    "main.css": "/React-Homework/static/css/main.f54ebebe.css",
+    "main.js": "/React-Homework/static/js/main.3ef1a6ca.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Homework/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Nunito-VariableFont_wght.ttf": "/React-Homework/static/media/Nunito-VariableFont_wght.ba12192be420666fc588.ttf",
     "index.html": "/React-Homework/index.html",
-    "main.5bbefe3b.css.map": "/React-Homework/static/css/main.5bbefe3b.css.map",
-    "main.a3ee7125.js.map": "/React-Homework/static/js/main.a3ee7125.js.map",
+    "main.f54ebebe.css.map": "/React-Homework/static/css/main.f54ebebe.css.map",
+    "main.3ef1a6ca.js.map": "/React-Homework/static/js/main.3ef1a6ca.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Homework/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bbefe3b.css",
-    "static/js/main.a3ee7125.js"
+    "static/css/main.f54ebebe.css",
+    "static/js/main.3ef1a6ca.js"
   ]
 }
