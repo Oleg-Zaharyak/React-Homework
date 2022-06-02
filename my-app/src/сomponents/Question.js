@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { TextFeedback } from "./TextFeedback";
 import { Feedback } from "./Feedback";
 import { NumberList } from "./NumberList";
+import style from "./Question.module.scss";
 
 export const Question = () => {
   const [checkedValue, setCheckedValue] = useState(10);
@@ -25,25 +26,29 @@ export const Question = () => {
   };
 
   return (
-    <div className="flexDiv">
-      <h2>How would you rate our cours?</h2>
-      <NumberList
-        count={10}
-        ratingChange={ratingChange}
-        checkedValue={checkedValue}
-      />
-      <div>
-        <input
-          id="input"
-          type="text"
-          value={feedbackText}
-          onChange={fieldInput}
-          placeholder="Write your feedback"
+    <div className={style.mainContainer}>
+      <div className={style.formContainer}>
+        <h2 className={style.header}>How would you rate our cours?</h2>
+        <NumberList
+          count={10}
+          ratingChange={ratingChange}
+          checkedValue={checkedValue}
         />
-        <Feedback feedbackText={feedbackText} onclick={sendFeedback} />
+        <div className={style.fedback_container}>
+          <input
+            className={style.fedback_input}
+            id="input"
+            type="text"
+            value={feedbackText}
+            onChange={fieldInput}
+            placeholder="Write a rewiew"
+          />
+          <Feedback feedbackText={feedbackText} onclick={sendFeedback} />
+        </div>
       </div>
-
-      <TextFeedback output={output} />
+      <div className={style.feedback_output_block}>
+        <TextFeedback output={output} />
+      </div>
     </div>
   );
 };

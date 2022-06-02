@@ -1,0 +1,36 @@
+@import "./../varibles.scss";
+
+.list{
+    display: flex;
+    flex-direction: row;   
+    margin-bottom: 20px;
+}
+
+.list_item{
+    list-style-type: none;    
+}
+
+.item_radio{
+    display: none;
+}
+
+.item_radio_text{
+    @include flex-center;
+    width: 35px;
+    height: 35px;  
+    font-size: 15px;
+    line-height:2px;
+    border-radius:50%;
+    background-color: rgb(244, 244, 244);
+    margin-right: 10px;
+}
+
+.item_radio:checked+.item_radio_text{
+    color: white;
+    background-color: $rating-color;
+}
+
+.item_radio:hover+.item_radio_text{
+    color: white;
+    background-color: $rating-color;
+}
