@@ -1,0 +1,29 @@
+@import "./../varibles.scss";
+
+.feedbck_field{
+    position: relative;
+    background-color: $second-bg-color;
+    margin-top: 15px;
+    width: 100%;
+    border-radius:10px ; 
+}
+
+.feedback_text{
+   color: $main-text-color;
+   padding: 30px 40px 30px 30px;
+   overflow-wrap: break-word;  
+}
+
+.feedback_number_text{
+    @include flex-center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    background-color: $rating-color;
+    line-height:2px;
+}

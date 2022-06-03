@@ -1,0 +1,53 @@
+@import "./../varibles.scss";
+
+.mainContainer{
+    background-color: $main-bg-color;
+    padding-top: 20px;
+  }
+  
+.formContainer{
+    @include flex-center;
+    flex-direction: column;
+    background-color: $second-bg-color;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 15px 20px ;
+}
+
+.header{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.fedback_container{
+    width: 100%;
+    position: relative;
+}
+
+.fedback_input{
+    width: 100%;
+    height: 50px;
+    color: $main-text-color;
+    padding: 8px;
+    padding-right: 90px;
+    border: 3px solid rgb(241, 241, 241) ;
+    border-radius: 10px;
+    outline: none;
+}
+
+.fedback_input:focus-visible{
+    border-color: $main-bg-color;
+}   
+
+.feedback_output_block{
+    width: 100%;
+    height:  309px;
+    padding: 0 15px 10px ;
+    max-height: 50vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.feedback_output_block::-webkit-scrollbar{
+    display: none;
+}

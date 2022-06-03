@@ -1,0 +1,12 @@
+$rating-color: green;
+$Head-Foot-color:rgb(19, 20, 40);
+$Head-Foot-text-color:white;
+$main-bg-color:rgb(32, 33, 66);
+$main-text-color:black;
+$second-bg-color: white;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

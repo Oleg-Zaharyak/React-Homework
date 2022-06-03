@@ -1,16 +1,16 @@
 // import logo from './logo.svg';
-import "./App.css";
-import {Header} from "./сomponents/Header"
-import {Footer} from "./сomponents/Footer"
-import {Question} from "./сomponents/Question"
+import "./App.scss";
+import { Header } from "./сomponents/Header";
+import { Footer } from "./сomponents/Footer";
+import { Question } from "./сomponents/Question";
 
 function App() {
-  const nameStudent = "Oleg Zakhariak"
+  const nameStudent = "Oleg Zakhariak";
   return (
     <div className="flexDiv">
-      <Header name= {nameStudent} />
+      <Header name={nameStudent} />
       <Question />
-      <Footer name= {nameStudent} />
+      <Footer name={nameStudent} />
     </div>
   );
 }
