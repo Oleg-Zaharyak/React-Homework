@@ -1,17 +1,12 @@
 // import logo from './logo.svg';
 import "./App.scss";
-import { Header } from "./сomponents/Header";
-import { Footer } from "./сomponents/Footer";
-import { Question } from "./сomponents/Question";
+// import { Form_feedback } from "./сomponents/form_feedback/Form_feedback";
+import { MainComponent } from "./сomponents/main_page/Main_page"
 
 function App() {
-  const nameStudent = "Oleg Zakhariak";
   return (
-    <div className="flexDiv">
-      <Header name={nameStudent} />
-      <Question />
-      <Footer name={nameStudent} />
-    </div>
+      // <FormFeedback/>
+      <MainComponent/>
   );
 }
 
