@@ -1,0 +1,39 @@
+.main_container{
+    padding: 0 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+.logo{
+    width: 135px;
+}
+.head_text{
+    color: black;
+    font-weight: 900;
+}
+.head_left_block{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.name{
+    background-color: rgb(68, 68, 174);
+    border-radius: 20px;
+    padding: 0  10px;
+    margin-right: 20px;
+    color: white;
+}
+.button{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(68, 68, 174);
+    color: white;
+}

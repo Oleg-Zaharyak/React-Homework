@@ -1,0 +1,35 @@
+.menu{
+    // width: 15%;
+    height: 100%;
+    background-color: rgb(209, 209, 209);
+    padding: 20px 10px;
+}
+
+.list{
+    width: 125px;
+}
+.list_item{
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.link{
+    display: block;
+    padding: 5px 0;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    outline: 2px solid rgb(32, 33, 66);
+}
+
+.link:focus{
+    background-color: rgb(32, 33, 66);
+    color: white;
+}
+.link:focus:hover{
+    outline: 2px solid white;
+}

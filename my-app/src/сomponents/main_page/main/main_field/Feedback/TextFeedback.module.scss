@@ -1,21 +1,23 @@
-@import "./../varibles.scss";
+
 
 .feedbck_field{
     position: relative;
-    background-color: $second-bg-color;
+    background-color: rgb(68, 68, 174);
     margin-top: 15px;
     width: 100%;
     border-radius:10px ; 
 }
 
 .feedback_text{
-   color: $main-text-color;
+   color: rgb(0, 0, 0);
    padding: 30px 40px 30px 30px;
    overflow-wrap: break-word;  
 }
 
 .feedback_number_text{
-    @include flex-center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 35px;
     height: 35px;
     position: absolute;
@@ -24,6 +26,16 @@
     border: 1px solid white;
     border-radius: 50%;
     color: white;
-    background-color: $rating-color;
+    background-color: green;
     line-height:2px;
+}
+.text_box{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.feedback_name{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
 }
