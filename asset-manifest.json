@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Homework/static/css/main.f54ebebe.css",
-    "main.js": "/React-Homework/static/js/main.3ef1a6ca.js",
+    "main.css": "/React-Homework/static/css/main.4f500d5b.css",
+    "main.js": "/React-Homework/static/js/main.bd50432d.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Homework/static/js/787.28cb0dcd.chunk.js",
+    "static/media/united.jpg": "/React-Homework/static/media/united.cc0a860fd40f2364229b.jpg",
+    "static/media/Yura.png": "/React-Homework/static/media/Yura.d6a18c70b841d04cc04d.png",
+    "static/media/Andriy.png": "/React-Homework/static/media/Andriy.b1a8400ac5ee8fab5f70.png",
     "static/media/Nunito-VariableFont_wght.ttf": "/React-Homework/static/media/Nunito-VariableFont_wght.ba12192be420666fc588.ttf",
+    "static/media/Oleksandr2.png": "/React-Homework/static/media/Oleksandr2.cf4854c3d5ec9fd676ca.png",
+    "static/media/Oleksandr1.jpg": "/React-Homework/static/media/Oleksandr1.01f4ffb01452c73174a8.jpg",
+    "static/media/color_logo.svg": "/React-Homework/static/media/color_logo.ecc7d4b499bb81c857d6fc7a389228e9.svg",
     "index.html": "/React-Homework/index.html",
-    "main.f54ebebe.css.map": "/React-Homework/static/css/main.f54ebebe.css.map",
-    "main.3ef1a6ca.js.map": "/React-Homework/static/js/main.3ef1a6ca.js.map",
+    "main.4f500d5b.css.map": "/React-Homework/static/css/main.4f500d5b.css.map",
+    "main.bd50432d.js.map": "/React-Homework/static/js/main.bd50432d.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Homework/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f54ebebe.css",
-    "static/js/main.3ef1a6ca.js"
+    "static/css/main.4f500d5b.css",
+    "static/js/main.bd50432d.js"
   ]
 }
